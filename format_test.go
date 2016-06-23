@@ -2,10 +2,11 @@ package pb_test
 
 import (
 	"fmt"
-	"gopkg.in/cheggaaa/pb.v1"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/calinmiclaus/pb"
 )
 
 func Test_DefaultsToInteger(t *testing.T) {
